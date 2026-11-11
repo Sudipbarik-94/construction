@@ -603,23 +603,19 @@ a {
     .hero h1 {
         font-size: 42px;
     }
-}
-
-/* =========================
-   RESPONSIVE DESIGN
-========================= */
-
-@media (max-width: 900px) {
-
-    .why-container {
+     .why-container {
         grid-template-columns: repeat(2, 1fr);
     }
 
     .customer-container {
         grid-template-columns: repeat(2, 1fr);
     }
-
 }
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
 
 @media (max-width: 550px) {
 
