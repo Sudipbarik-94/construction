@@ -359,10 +359,6 @@ a {
 }
 
 /* Why Choose */
-.choose-section{
-    display: flex;
-}
-
 .choose-card {
     padding: 30px;
     background: #f5f7fb;
@@ -387,7 +383,6 @@ a {
 /* Reviews */
 
 .rating {
-    display: flex;
     background: #f5f7fb;
 }
 
