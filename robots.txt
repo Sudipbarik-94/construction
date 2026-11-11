@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sudipbarik-94.github.io/construction/sitemap.xml
