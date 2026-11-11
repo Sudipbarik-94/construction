@@ -359,9 +359,11 @@ a {
 }
 
 /* Why Choose */
+.choose-section{
+    display: flex;
+}
 
 .choose-card {
-    display: flex;
     padding: 30px;
     background: #f5f7fb;
     border-radius: 10px;
