@@ -225,6 +225,14 @@ a {
     background: #172033;
 }
 
+.book-btn {
+    display: inline-block;
+    background: #876e14;
+    color: rgba(11, 11, 11, 0);
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+}
 /* RESPONSIVE DESIGN */
 
 @media (max-width: 768px) {
