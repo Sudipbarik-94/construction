@@ -333,15 +333,15 @@ a {
     margin-bottom: 18px;
 }
 
-.service-info a {
-    color: #d6a000;
+/* .service-info a {
+    /* color: #d6a000; 
     text-decoration: none;
     font-weight: 600;
-}
+} */
 
-.service-info a:hover {
+/* .service-info a:hover {
     color: #172033;
-}
+} */
 
 
 /* RESPONSIVE DESIGN */
