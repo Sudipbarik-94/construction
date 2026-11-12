@@ -32,6 +32,11 @@ a {
     color: #142c50;
 }
 
+.logo img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
 .logo span,
 .footer span {
     color: #f59e0b;
