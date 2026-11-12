@@ -233,6 +233,9 @@ a {
     text-decoration: none;
     border-radius: 8px;
 }
+.book-btn:hover {
+    background: #172033;
+}
 /* RESPONSIVE DESIGN */
 
 @media (max-width: 768px) {
