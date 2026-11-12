@@ -30,6 +30,7 @@ a {
     font-size: 27px;
     font-weight: bold;
     color: #142c50;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
