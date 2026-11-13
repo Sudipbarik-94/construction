@@ -569,36 +569,51 @@ a {
 }
 /* SOCIAL ICONS */
 
-.social-icons {
+.footer .social-icons {
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
     gap: 15px;
     margin-top: 20px;
-    justify-content: center;
-    align-items: center;
 }
 
-.social-icons a {
+.footer .social-icons a {
     width: 42px;
     height: 42px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    min-width: 42px;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
 
     background: #263449;
     color: #fff;
+
     font-size: 19px;
+    line-height: 1;
+    text-align: center;
 
     border-radius: 50%;
     text-decoration: none;
+    box-sizing: border-box;
+
     transition: 0.3s ease;
 }
 
-.social-icons a:hover {
-    background: #f39c12;
-    color: #fff;
-    transform: translateY(-5px);
+.footer .social-icons a i {
+    display: block;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
 }
 
+.footer .social-icons a:hover {
+    background: #f39c12;
+    transform: translateY(-5px);
+}
 
 
 /* RESPONSIVE DESIGN */
