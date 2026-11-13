@@ -140,6 +140,8 @@
                         <label>Mobile Number *</label>
                         <input type="tel"
                                placeholder="Enter mobile number"
+                               pattern="[0-9]{10}"
+                               maxlength="10"
                                required id="number">
                     </div>
 
@@ -173,7 +175,7 @@
                 </button>
             </form>
    <script>
-document.getElementById(sms).addEventListener("submit",(e)=>{
+document.getElementById("sms").addEventListener("submit",(e)=>{
 e.preventDefault();
 
 let name=document.getElementById("name").value;
@@ -191,7 +193,7 @@ Subject:${subject}
 Massage:${massage}`;
 
 let phonenumber=919332515139;
-let url="https://wa.me"+phonenumber+"?text="+encodeURIComponent(whatsappMassage);
+let url="https://wa.me/"+phonenumber+"?text="+encodeURIComponent(whatsappMassage);
 window.open(url,"_blank");
 })
   </script>
