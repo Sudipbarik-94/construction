@@ -261,34 +261,26 @@ a {
 }
 
 .founder-image {
-    min-width: 300px;
-    height: 350px;
-    background: linear-gradient(145deg, #142c50, #080d18);
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
     border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
-    border-bottom: 5px solid #e8493f;
+    position: relative;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
 }
 
-.founder-initials {
-    font-size: 85px;
-    font-weight: 800;
-    color: #fff;
-    letter-spacing: 5px;
+.founder-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: transform 0.4s ease;
 }
 
-.founder-image  {
-    color: #ff6258;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-    margin-top: 15px;
-    text-align: center;
+.founder-image:hover img {
+    transform: scale(1.05);
 }
-
 .founder-content {
     flex: 1;
 }
@@ -381,10 +373,11 @@ a {
         gap: 35px;
         align-items: stretch;
     }
-
     .founder-image {
-        min-width: 100%;
-        height: 260px;
+        width: 100%;
+        max-width: 320px;
+        height: 350px;
+        margin: 0 auto;
     }
 
     .founder-content h2 {
