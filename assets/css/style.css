@@ -567,16 +567,36 @@ a {
     line-height: 1.7;
     margin-bottom: 18px;
 }
+/* SOCIAL ICONS */
 
-/* .service-info a {
-    /* color: #d6a000; 
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #263449;
+    color: #fff;
+    font-size: 19px;
+
+    border-radius: 50%;
     text-decoration: none;
-    font-weight: 600;
-} */
+    transition: 0.3s ease;
+}
 
-/* .service-info a:hover {
-    color: #172033;
-} */
+.social-icons a:hover {
+    background: #f39c12;
+    color: #fff;
+    transform: translateY(-5px);
+}
+
 
 
 /* RESPONSIVE DESIGN */
